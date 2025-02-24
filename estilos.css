@@ -1,0 +1,120 @@
+/* Se actualiza la tipografía con Poppins y se refina la paleta de colores */
+body, h1, h3, h4, h5, ul, li {
+    font-family: 'Poppins', sans-serif;
+    color: #444;
+  }
+  
+  body {
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  
+  h1 {
+    font-size: 2.5em;
+    border-bottom: 2px solid #0275d8;
+    padding-bottom: 10px;
+    color: #0275d8;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    color: #555;
+    margin-top: 20px;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .contacto {
+    margin-top: 10px;
+  }
+  
+  .contacto img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+  }
+  
+  .photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px auto;
+    display: block;
+    border: 3px solid #0275d8;
+  }
+  
+  .section {
+    margin-top: 30px;
+    text-align: left;
+  }
+  
+  .section h3 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    font-size: 1.5em;
+    color: #0275d8;
+  }
+  
+  .section h4 {
+    margin-top: 10px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .section h5 {
+    margin-top: 5px;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      margin: 20px;
+      padding: 15px;
+    }
+    h1 {
+      font-size: 2em;
+    }
+    .photo {
+      width: 120px;
+      height: 120px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .container {
+      padding: 10px;
+    }
+    h1 {
+      font-size: 1.8em;
+    }
+    h3, .section h3 {
+      font-size: 1.2em;
+    }
+    .photo {
+      width: 100px;
+      height: 100px;
+    }
+  }
+  
